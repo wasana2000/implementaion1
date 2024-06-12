@@ -1,0 +1,73 @@
+body {
+    background-image: url('img2.jpg'); /* Add your background image here */
+    background-size: 200px;
+    background-position: center;
+    color: rgb(3, 16, 61);
+}
+
+.sidebar {
+    background-color: rgba(229, 118, 7, 0.434); /* Blue background with transparency */
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+}
+
+.sidebar img.logo {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.sidebar nav a {
+    color: rgb(225, 222, 222);
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.sidebar nav a.active,
+.sidebar nav a:hover {
+    background-color: rgba(10, 1, 1, 0.2);
+    border-radius: 10px;
+}
+
+.sidebar .user-info {
+        margin-top: 350px;
+        text-align: center;
+        font-size: 3em;
+    }
+
+
+.sidebar .user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.sidebar .user-info p {
+    margin-top: 40px;
+   
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 40px;
+}
+
+.table {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+}
+
+.table thead {
+    background-color: rgba(240, 242, 243, 0.8);
+    color: rgba(7, 1, 1, 0.948);
+}
+
+.left-corner-image {
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    width: 20px; /* Adjust the size as needed */
+    height: auto;
+}
